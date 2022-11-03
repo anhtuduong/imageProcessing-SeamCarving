@@ -12,11 +12,11 @@ repositories {
     mavenCentral()
 }
 
-sourceSets {
 run{
     args = ['-m', 'mask.png', 'example.png', 'out.png', '875']
 }
 
+sourceSets {
     main {
         java {
             srcDir 'src'
